@@ -1,0 +1,7 @@
+# specify the root directory of commonsky-motion-planning-library
+path_root: ./../
+
+path_scenarios: ${join_paths:${path_root},examples_3d/scenarios_3d/}
+path_output: ${join_paths:${path_root},examples_3d/evaluation_3d/}
+
+

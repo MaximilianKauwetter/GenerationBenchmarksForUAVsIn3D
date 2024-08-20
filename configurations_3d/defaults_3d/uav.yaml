@@ -1,0 +1,16 @@
+&physical_parameters # 1 = Drone
+uav_id: 1
+
+radius: 1
+
+# velocity in m/s
+v_min: !!null
+v_max: !!null
+
+# acceleration in m/s2
+a_min: !!null
+a_max: !!null
+
+# reference point of vehicle
+reference_point: "CENTER" # Options: "CENTER", "REAR"
+

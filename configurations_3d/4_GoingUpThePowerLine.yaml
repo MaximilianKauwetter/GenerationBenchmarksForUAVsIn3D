@@ -1,0 +1,14 @@
+planning:
+  dt: 1
+  grid_size: 0.25
+  trajectory_planner: a_star
+  motion_primitive: fibonacci_sphere
+  movement_cost_and_heuristic: velocity
+  number_new_states_per_rad: 37
+uav:
+  a_max: 0.5
+  a_min: -0.5
+  radius: 1
+  uav_id: 1
+  v_max: 3
+  v_min: 0

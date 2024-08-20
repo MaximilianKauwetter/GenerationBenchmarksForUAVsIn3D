@@ -1,0 +1,12 @@
+dt: 1
+time_start: 0
+grid_size: 0.1
+total_states: 1000
+number_new_states_per_rad: 37
+movement_cost_and_heuristic: velocity # Options: euc_distance, velocity, max_velocity
+bounding_box: all # Options: all, static, dynamic, planning_problem
+
+
+motion_primitive: grid # Options: fibonacci_sphere, grid
+trajectory_planner: a_star # Options: a_star, rrt_star
+predictor: None # Options: None

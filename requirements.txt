@@ -1,0 +1,9 @@
+-e git+ssh://git@gitlab.lrz.de/cps/commonsky-io.git@feature/BT_MK#egg=commonsky-io
+ffmpeg
+sympy~=1.12
+omegaconf>=2.1.1
+numpy==1.25.2
+PyYAML==6.0.1
+setuptools~=68.0.0
+trimesh>=3.23.0
+rtree

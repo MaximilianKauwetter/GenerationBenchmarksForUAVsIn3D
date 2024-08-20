@@ -1,0 +1,16 @@
+planning:
+  bounding_box: planning_problem
+  dt: 1
+  grid_size: 0.1
+  motion_primitive: fibonacci_sphere
+  movement_cost_and_heuristic: velocity
+  number_new_states_per_rad: 37
+  total_states: 50000
+  trajectory_planner: rrt_star
+uav:
+  a_max: 0.5
+  a_min: -0.5
+  radius: 1
+  uav_id: 1
+  v_max: 3
+  v_min: 0

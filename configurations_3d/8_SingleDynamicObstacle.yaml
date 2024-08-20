@@ -1,0 +1,15 @@
+planning:
+  dt: 1
+  grid_size: 0.5
+  trajectory_planner: a_star
+  motion_primitive: grid
+  movement_cost_and_heuristic: max_velocity
+  total_states: 200
+
+uav:
+  a_max: 0.5
+  a_min: -0.5
+  radius: 1
+  uav_id: 1
+  v_max: 3
+  v_min: 0
